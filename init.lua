@@ -1,4 +1,9 @@
-require('rm_src.remap')
-require('rm_src.set')
-
-
+require('src.plugins-setup')
+require('src.core.options')
+require('src.core.keymaps')
+require('src.core.colorscheme')
+require('src.plugins.comment')
+require('src.plugins.nvim-tree')
+require('src.plugins.lualine')
+require('src.plugins.telescope')
+require('src.plugins.nvim-cmp')
